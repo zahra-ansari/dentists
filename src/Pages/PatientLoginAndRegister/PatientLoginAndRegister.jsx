@@ -74,7 +74,8 @@ function PatientLoginAndRegister() {
       </NavLink>
       <div className="flex justify-center items-center md:flex-col lg:flex-row gap-x-10">
         <div className="hidden md:block">
-          <img src="./Pictures/login-images/1.png" />
+          {/* <img src="./Pictures/login-images/1.png" /> */}
+          <img src={`${import.meta.env.BASE_URL}Pictures/login-images/1.png`} />
         </div>
         <div>
           {isLoginPart && (
