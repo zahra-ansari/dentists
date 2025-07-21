@@ -47,7 +47,7 @@ function ProfileDentist() {
   return (
     <div className="relative mb-[1200px] lg:mb-[700px]">
       <img
-        src="public/Pictures/profile-dentist-images/1.jpg"
+        src={`${import.meta.env.BASE_URL}Pictures/profile-dentist-images/1.jpg`}
         className="w-full"
       />
       <div className="absolute top-[38rem] xs:top-[41rem] lg:top-[30rem] xl:top-[33rem] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[calc(100%-2rem)] xs:w-[calc(100%-10rem)] bg-white rounded-3xl py-4 lg:px-3 xl:px-10">

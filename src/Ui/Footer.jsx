@@ -32,23 +32,33 @@ function Footer() {
           <p className="font-Vazirmatn-ExtraBold">شبکه های اجتماعی ما</p>
           <div className="flex gap-x-5 mt-5">
             <img
-              src="public/Pictures/social-media-icons/1.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }Pictures/social-media-icons/1.png`}
               className="w-10 h-10"
             />
             <img
-              src="public/Pictures/social-media-icons/2.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }Pictures/social-media-icons/2.png`}
               className="w-10 h-10"
             />
             <img
-              src="public/Pictures/social-media-icons/3.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }Pictures/social-media-icons/3.png`}
               className="w-10 h-10"
             />
             <img
-              src="public/Pictures/social-media-icons/4.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }Pictures/social-media-icons/4.png`}
               className="w-10 h-10"
             />
             <img
-              src="public/Pictures/social-media-icons/5.png"
+              src={`${
+                import.meta.env.BASE_URL
+              }Pictures/social-media-icons/5.png`}
               className="w-10 h-10"
             />
           </div>
@@ -86,15 +96,15 @@ function Footer() {
         </div>
         <div className="flex flex-row sm:flex-col gap-y-8 lg:flex-row gap-x-10 mt-20">
           <img
-            src="public/Pictures/license-icons/1.png"
+            src={`${import.meta.env.BASE_URL}Pictures/license-icons/1.png`}
             className="w-20 h-28"
           />
           <img
-            src="public/Pictures/license-icons/2.png"
+            src={`${import.meta.env.BASE_URL}Pictures/license-icons/2.png`}
             className="w-20 h-28"
           />
           <img
-            src="public/Pictures/license-icons/3.png"
+            src={`${import.meta.env.BASE_URL}Pictures/license-icons/3.png`}
             className="w-20 h-28"
           />
         </div>

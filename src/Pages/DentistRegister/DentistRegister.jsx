@@ -226,7 +226,11 @@ function DentistRegister() {
         </button>
       </form>
       <div>
-        <img src="/Pictures/register-dentist-images/1.png" />
+        <img
+          src={`${
+            import.meta.env.BASE_URL
+          }Pictures/register-dentist-images/1.png`}
+        />
       </div>
     </div>
   );

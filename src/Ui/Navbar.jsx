@@ -137,7 +137,10 @@ function Navbar() {
         )}
 
         <div className="flex gap-x-1 items-center">
-          <img src="/public/Pictures/logo.jpg" className="w-8 h-8" />
+          <img
+            src={`${import.meta.env.BASE_URL}Pictures/logo.jpg`}
+            className="w-8 h-8"
+          />
           <span className="text-sky-300 text-2xl font-Vazirmatn-ExtraBold hidden sm:block">
             دندانپزشکان ایران
           </span>
@@ -152,7 +155,10 @@ function Navbar() {
       <nav className="hidden lg:flex h-20 items-center justify-around border-b border-gray-300">
         <Icons />
         <div className="flex gap-x-1 items-center">
-          <img src="/public/Pictures/logo.jpg" className="w-8 h-8" />
+          <img
+            src={`${import.meta.env.BASE_URL}Pictures/logo.jpg`}
+            className="w-8 h-8"
+          />
           <span className="text-sky-300 text-2xl font-Vazirmatn-ExtraBold">
             دندانپزشکان ایران
           </span>
