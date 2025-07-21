@@ -31,7 +31,7 @@ function LandingHeader() {
         </div>
       </div>
       <div className="max-w-full pt-10 self-center">
-        <img src="/public/Pictures/home-images/1.png" />
+        <img src="./public/Pictures/home-images/1.png" />
       </div>
     </div>
   );
