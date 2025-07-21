@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Vazirmatn-ExtraBold";
+  src: url("/Fonts/Vazirmatn-ExtraBold.woff2");
+}
+
+@font-face {
+  font-family: "Vazirmatn-ExtraLight";
+  src: url("/Fonts/Vazirmatn-ExtraLight.woff2");
+}
+
+@font-face {
+  font-family: "Vazirmatn-Light";
+  src: url("/Fonts/Vazirmatn-Light.woff2");
+}
+
+@font-face {
+  font-family: "Vazirmatn-Medium";
+  src: url("/Fonts/Vazirmatn-Medium.woff2");
+}
+
+@theme {
+  --font-Vazirmatn-ExtraBold: "Vazirmatn-ExtraBold";
+  --font-Vazirmatn-ExtraLight: "Vazirmatn-ExtraLight";
+  --font-Vazirmatn-Light: "Vazirmatn-Light";
+  --font-Vazirmatn-Medium: "Vazirmatn-Medium";
+
+  --breakpoint-xs: 30rem;
+  --breakpoint-xl2: 82.5rem;
+  /* 1320px */
+  --breakpoint-xl3: 85rem;
+  /* 1360px */
+  --breakpoint-xl4: 87.5rem;
+  /* 1400px */
+}
